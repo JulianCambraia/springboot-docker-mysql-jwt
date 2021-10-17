@@ -13,4 +13,4 @@ Usaremos o Postman como Cliente nas requisições GET,POST,PUT e DELETE
 
 Como modelo de arquitetura iremos seguir conforme demonstrado na imagem abaixo: 
 
-![alt text](https://github.com/JulianCambraia/springboot-docker-mysql-jwt/blob/main/images/desenho-arquitetura?raw=true)
+![alt text](https://github.com/JulianCambraia/springboot-docker-mysql-jwt/blob/main/images/desenho-arquitetura.png?raw=true)
