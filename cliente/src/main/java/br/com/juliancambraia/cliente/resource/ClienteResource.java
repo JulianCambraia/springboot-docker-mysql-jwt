@@ -60,7 +60,7 @@ public class ClienteResource {
 
     @GetMapping("/{id}")
     public ResponseEntity<ClienteResponse> findById(@PathVariable(name = "id") Long id) {
-        Cliente cliente = null;
+        Cliente cliente;
 
         try {
             cliente = clienteService.findById(id);
