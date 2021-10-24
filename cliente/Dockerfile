@@ -1,6 +1,7 @@
 #
 # Build stage
 #  docker-compose -f cliente-docker-compose.yml up -d
+#  docker-compose -f cliente-docker-compose.yml up -d --build --force-recreate
 #
 FROM maven:3.6.3-openjdk-14-slim AS build
 COPY src /home/app/src
