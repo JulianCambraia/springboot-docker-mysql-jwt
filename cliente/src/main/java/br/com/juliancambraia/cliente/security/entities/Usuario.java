@@ -40,6 +40,6 @@ public class Usuario {
 
     @Enumerated(EnumType.STRING)
     @Column(name = "perfil", nullable = false)
-    private PerfilEnum perfilEnum;
+    private PerfilEnum perfil;
 
 }

@@ -1,7 +1,8 @@
-package br.com.juliancambraia.cliente.security.service;
+package br.com.juliancambraia.cliente.security.service.impl;
 
 import br.com.juliancambraia.cliente.security.entities.Usuario;
 import br.com.juliancambraia.cliente.security.repository.UsuarioRepository;
+import br.com.juliancambraia.cliente.security.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
